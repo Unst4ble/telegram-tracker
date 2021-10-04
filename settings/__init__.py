@@ -24,6 +24,4 @@ try:
 except ImportError:
     print('Put API_ID and API_HASH into settings/keys.py')
     print()
-    API_HASH = '29ef3459cf1294682a2d2e4735de876c'
-    API_ID = 8017391
     raise IOError('Missing API_ID and API_HASH in settings/keys.py')
